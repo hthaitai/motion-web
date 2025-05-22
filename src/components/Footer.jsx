@@ -27,19 +27,19 @@ function Footer() {
       </div>
       {/* Banner Free Shipping & Money Back */}
       <div className="bg-white w-full py-10">
-        <h2 className="text-[#06302c] text-4xl font-banner  text-center mb-8">
+        <h2 className="text-[#06302c] text-2xl md:text-4xl font-banner text-center mb-8">
           {t("Try MOTION VIDEO FRAME now !")}
         </h2>
-        <div className="flex justify-center items-center gap-32">
-          <div className="flex flex-col items-center">
-            <i class="fa-solid fa-truck-fast -days text-[#06302c] text-7xl mb-4"></i>
-            <span className="text-[#06302c] text-2xl font-banner ">
-              {t("Free Shipping")}{" "}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-32">
+          <div className="flex flex-col items-center mb-8 md:mb-0">
+            <i className="fa-solid fa-truck-fast -days text-[#06302c] text-5xl md:text-7xl mb-4"></i>
+            <span className="text-[#06302c] text-lg md:text-2xl font-banner">
+              {t("Free Shipping")}
             </span>
           </div>
           <div className="flex flex-col items-center">
-            <i class="fa-solid fa-calendar-days text-[#06302c] text-7xl mb-4"></i>
-            <span className="text-[#06302c] text-2xl font-banner ">
+            <i className="fa-solid fa-calendar-days text-[#06302c] text-5xl md:text-7xl mb-4"></i>
+            <span className="text-[#06302c] text-lg md:text-2xl font-banner">
               {t("15 Days Money Back")}
             </span>
           </div>

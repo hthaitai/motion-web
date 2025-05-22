@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="pt-[70px]">
+      <div className="md:pt-[70px]">
         <Homepage />
       </div>
       <Footer />
