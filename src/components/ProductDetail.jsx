@@ -1,23 +1,27 @@
-import React, { useState } from 'react';
-import product1 from '../image/product1.png';
-import product2 from '../image/product2.png';
-import product3 from '../image/product3.png';
-import product4 from '../image/product4.png';
-import PageBanner from './PageBanner';
+import React, { useState } from "react";
+import product1 from "../image/product1.png";
+import product2 from "../image/product2.png";
+import product3 from "../image/product3.png";
+import product4 from "../image/product4.png";
+import PageBanner from "./PageBanner";
 
-function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
+function ProductDetail({ bannerTitle = "The Motion Frame" }) {
   const images = [product2, product1, product3, product4];
   const [mainImg, setMainImg] = useState(product2);
 
   return (
-    <div className='pt-[30px]'>
+    <div className="pt-[30px]">
       {/* Banner page */}
       <PageBanner
         title={bannerTitle}
         subtitle={`Motion Memory / ${bannerTitle}`}
       />
-      <div className="flex flex-col md:flex-row items-start justify-center gap-12 px-4 py-12 bg-white">
+      <div className="flex flex-col md:flex-row justify-center gap-12 px-4 py-12 bg-white">
         {/* Ảnh sản phẩm chính */}
+        <h1 className="text-5xl block md:hidden font-banner mb-2 text-center text-nowrap">
+          Motion Video Frame
+        </h1>
+
         <div className="flex justify-center flex-col items-center">
           <img
             src={mainImg}
@@ -31,8 +35,8 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
                 key={idx}
                 src={img}
                 alt=""
-                className={`w-32 h-32 object-cover rounded cursor-pointer border-2 ${
-                  mainImg === img ? 'border-[#2cc295]' : 'border-transparent'
+                className={` md:w-[128px] md:h-[128px] w-[60px] h-[60px] object-cover rounded cursor-pointer border-2 ${
+                  mainImg === img ? "border-[#2cc295]" : "border-transparent"
                 }`}
                 onClick={() => setMainImg(img)}
               />
@@ -41,7 +45,9 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
         </div>
         {/* Thông tin sản phẩm */}
         <div className="flex-1 max-w-lg">
-          <h1 className="text-5xl font-banner mb-2">Motion Video Frame</h1>
+          <h1 className="text-5xl hidden md:block font-banner mb-2 text-center text-nowrap">
+            Motion Video Frame
+          </h1>
           <div className="flex items-center mb-2">
             {/* <span className="text-yellow-400 text-2xl">★★★★★</span>
             <span className="ml-2 text-gray-500 text-xs">(21)</span> */}
@@ -50,7 +56,7 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
           {/* <div className="text-2xl font-bold mb-4">700.000 VNĐ</div> */}
           <div className="mb-4">
             <span className="font-semibold">OUR SHOP AT:</span>
-            <div className="flex flex-col gap-2 mt-2">
+            <div className="flex flex-col items-center gap-2 mt-2">
               <a
                 href="#"
                 className="bg-black w-[200px] text-white px-6 py-2 rounded-xl font-semibold text-center"
