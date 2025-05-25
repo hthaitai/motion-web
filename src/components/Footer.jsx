@@ -92,7 +92,7 @@ function Footer() {
             <h3 className="text-xl font-banner font-semibold mb-4">Terms</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/refundpolicy" className="hover:underline">
                   Refund Policy
                 </a>
               </li>

@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 function Homepage() {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="w-screen overflow-x-hidden">
       {/* Banner */}
       <div className="w-full min-h-[350px] bg-gradient-to-r font-banner from-[#06302c] to-[#2cc295] flex flex-col md:flex-row items-center px-4 md:px-12 py-8 md:py-16">
         {/* Text bên trái */}

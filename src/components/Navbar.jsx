@@ -5,23 +5,22 @@ import vnFlag from "../image/vietnam.png";
 
 function Navbar() {
   const { t, i18n } = useTranslation();
-  const [isVietnam, setIsVietnam] = useState(() => {
-    const savedLang = localStorage.getItem("lang");
-    return savedLang ? savedLang === "vi" : true;
-  });
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lang") || "vi";
-    i18n.changeLanguage(savedLang);
+    if (i18n.language !== savedLang) {
+      i18n.changeLanguage(savedLang);
+    }
   }, [i18n]);
 
   const handleFlagClick = () => {
-    const newLang = isVietnam ? "en" : "vi";
-    setIsVietnam(!isVietnam);
+    const newLang = i18n.language === "vi" ? "en" : "vi";
     i18n.changeLanguage(newLang);
     localStorage.setItem("lang", newLang);
   };
+
+  const isVietnam = i18n.language === "vi";
 
   return (
     <nav className="bg-white border-b border-gray-200 w-full h-[30px] md:h-[70px] flex items-center px-4 md:px-12 fixed top-0 left-0 z-50">
@@ -42,13 +41,13 @@ function Navbar() {
       </button>
       {/* Menu giữa (ẩn trên mobile, hiện trên md) */}
       <div className="flex-1 justify-center space-x-8 md:flex hidden">
-        <a href="#" className="text-[#153535] font-serif text-xl hover:underline">
+        <a href="/" className="text-[#153535] font-serif text-xl hover:underline">
           {t("The Motion Frame")}
         </a>
-        <a href="#" className="text-[#153535] font-serif text-xl hover:underline">
+        <a href="/about" className="text-[#153535] font-serif text-xl hover:underline">
           {t("About us")}
         </a>
-        <a href="#" className="text-[#153535] font-serif text-xl hover:underline">
+        <a href="/contact" className="text-[#153535] font-serif text-xl hover:underline">
           {t("Contact")}
         </a>
       </div>
@@ -83,7 +82,7 @@ function Navbar() {
             {t("About us")}
           </a>
           <a
-            href="#"
+            href="/contact"
             className="text-[#153535] font-serif text-xl hover:underline py-2"
             onClick={() => setMenuOpen(false)}
           >
