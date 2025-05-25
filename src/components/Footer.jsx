@@ -67,6 +67,7 @@ function Footer() {
             </p>
           </div>
           {/* Page */}
+          {/* a */}
           <div>
             <h3 className="text-xl font-banner font-semibold mb-4">Page</h3>
             <ul className="space-y-2">
