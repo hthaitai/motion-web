@@ -10,7 +10,7 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
   const [mainImg, setMainImg] = useState(product2);
 
   return (
-    <div>
+    <div className='pt-[30px]'>
       {/* Banner page */}
       <PageBanner
         title={bannerTitle}
@@ -18,14 +18,14 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
       />
       <div className="flex flex-col md:flex-row items-start justify-center gap-12 px-4 py-12 bg-white">
         {/* Ảnh sản phẩm chính */}
-        <div className="flex mr-[150px] flex-col items-center">
+        <div className="flex justify-center flex-col items-center">
           <img
             src={mainImg}
             alt="Motion Video Frame"
-            className="w-140 h-156 object-fit rounded-xl shadow-lg"
+            className="w-[300px]  h-[320px] md:w-[526px] md:h-[600px] object-fit rounded-xl shadow-lg"
           />
           {/* Ảnh nhỏ bên dưới */}
-          <div className="flex gap-4 mt-6">
+          <div className=" flex gap-4 mt-6">
             {images.map((img, idx) => (
               <img
                 key={idx}

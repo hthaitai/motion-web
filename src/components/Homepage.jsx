@@ -4,10 +4,15 @@ import imgHome from "../image/image.png";
 import imgHome1 from "../image/image1.png";
 import imgHome2 from "../image/image2.png";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom"; // Thêm dòng này
 function Homepage() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+const handleOrderNow = () => {
+  navigate("/product");
+};
   return (
-    <div className="w-screen overflow-x-hidden">
+    <div className="w-screen md:pt-[0px] pt-[60px] overflow-x-hidden">
       {/* Banner */}
       <div className="w-full min-h-[350px] bg-gradient-to-r font-banner from-[#06302c] to-[#2cc295] flex flex-col md:flex-row items-center px-4 md:px-12 py-8 md:py-16">
         {/* Text bên trái */}
@@ -49,7 +54,7 @@ function Homepage() {
           </p>
           <div className="pt-8 md:pt-[40px] flex justify-center md:justify-start">
             <button
-              onClick={onclick}
+              onClick={handleOrderNow}
               className="order-btn"
               style={{ zIndex: 10, position: "relative" }}
             >

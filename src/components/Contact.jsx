@@ -23,7 +23,7 @@ function Contact({ bannerTitle = "Contact Us" }) {
   };
 
   return (
-    <div>
+    <div className="pt-[30px]">
       <PageBanner
         title={t(bannerTitle)}
         subtitle={`Motion Memory / ${t(bannerTitle)}`}
