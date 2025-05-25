@@ -26,9 +26,9 @@ function Navbar() {
     <nav className="bg-white border-b border-gray-200 w-full h-[60px] md:h-[70px] flex items-center px-4 md:px-12 fixed top-0 left-0 z-50">
       {/* Logo bên trái */}
       <a href="/">
- <div className="flex flex-col font-serif text-[#153535]  font-medium leading-5">
-        <span className="text-xs font-semibold md:text-xl">Motion</span>
-        <span className="text-xs font-semibold md:text-xl">Memory</span>
+ <div className="flex flex-col font-serif text-[#153535] font-medium leading-5">
+        <span className="text-s font-semibold md:text-xl">Motion</span>
+        <span className="text-s font-semibold md:text-xl">Memory</span>
       </div>
       </a>
      
@@ -39,7 +39,7 @@ function Navbar() {
         aria-label="Open menu"
       >
         <svg
-          className="w-4 h-4 text-[#153535]"
+          className="w-7 h-7 text-[#153535]"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -82,7 +82,7 @@ function Navbar() {
           <img
             src={isVietnam ? vnFlag : ukFlag}
             alt={isVietnam ? "Vietnam Flag" : "UK Flag"}
-            className="w-4 h-4 md:w-9 md:h-9 rounded-full border border-gray-300 hover:border-[#2cc295] transition duration-200"
+            className="w-7 h-7 md:w-9 md:h-9 rounded-full border border-gray-300 hover:border-[#2cc295] transition duration-200"
           />
         </button>
       </div>
