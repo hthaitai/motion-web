@@ -36,7 +36,7 @@ function Navbar() {
         onClick={() => setMenuOpen(!menuOpen)}
         aria-label="Open menu"
       >
-        <svg className="w-7 h-7 text-[#153535]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 text-[#153535]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
@@ -61,13 +61,13 @@ function Navbar() {
           <img
             src={isVietnam ? vnFlag : ukFlag}
             alt={isVietnam ? "Vietnam Flag" : "UK Flag"}
-            className="w-9 h-9 rounded-full border border-gray-300 hover:border-[#2cc295] transition duration-200"
+            className="w-4 h-4 md:w-9 md:h-9 rounded-full border border-gray-300 hover:border-[#2cc295] transition duration-200"
           />
         </button>
       </div>
       {/* Mobile menu (hiện khi menuOpen) */}
       {menuOpen && (
-        <div className="absolute top-[70px] left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden z-50">
+        <div className="absolute top-[30px] left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden z-50">
           <a
             href="#"
             className="text-[#153535] font-serif text-xl hover:underline py-2"
