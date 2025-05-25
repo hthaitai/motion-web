@@ -10,15 +10,24 @@ function Footer() {
       <div className="w-full overflow-hidden bg-[#2cc295] py-2">
         <div className="relative w-full h-12">
           <div className="absolute top-0 left-0 flex animate-marquee-full w-max">
-            <span className="text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
+            <span className="hidden sm:block text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
               {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
               {t("15 Days Money Back")}&nbsp;&nbsp;&nbsp;&nbsp;{" "}
               {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
               {t("15 Days Money Back")}
             </span>
-            <span className="text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
+            <span className="hidden sm:block text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
               {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
               {t("15 Days Money Back")}&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
+            </span>
+            {/* Mobile marquee */}
+            <span className="block sm:hidden text-[#06302c] text-2xl font-banner whitespace-nowrap mr-8">
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
+            </span>
+            <span className="block sm:hidden text-[#06302c] text-2xl font-banner whitespace-nowrap mr-8">
               {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
               {t("15 Days Money Back")}
             </span>
@@ -78,13 +87,12 @@ function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-              {t("About us")}
+                  {t("About us")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                                {t("Contact")}
-
+                  {t("Contact")}
                 </a>
               </li>
             </ul>
@@ -95,7 +103,7 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="/refundpolicy" className="hover:underline">
-                {t("Refund Policy")}
+                  {t("Refund Policy")}
                 </a>
               </li>
               <li>

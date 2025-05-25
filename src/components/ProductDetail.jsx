@@ -10,7 +10,7 @@ function ProductDetail({ bannerTitle = "The Motion Frame" }) {
   const [mainImg, setMainImg] = useState(product2);
 
   return (
-    <div className="pt-[30px]">
+    <div className="pt-[30px] md:pt-[0px]">
       {/* Banner page */}
       <PageBanner
         title={bannerTitle}
