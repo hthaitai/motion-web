@@ -77,12 +77,13 @@ function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  About us
+              {t("About us")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Contact
+                                {t("Contact")}
+
                 </a>
               </li>
             </ul>
@@ -93,12 +94,12 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="/refundpolicy" className="hover:underline">
-                  Refund Policy
+                {t("Refund Policy")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:underline">
-                  Shipping Policy
+                  {t("Shipping Policy")}
                 </a>
               </li>
             </ul>
@@ -106,7 +107,7 @@ function Footer() {
           {/* Subscribe */}
           <div className="flex-1 min-w-[250px]">
             <h3 className="text-xl font-banner font-semibold mb-4">
-              Subscribe us
+              {t("Subscribe")}
             </h3>
             <form className="flex">
               <input

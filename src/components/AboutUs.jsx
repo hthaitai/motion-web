@@ -7,7 +7,7 @@ function AboutUs({ bannerTitle = 'About Us' }) {
 
   return (
     <div>
-      <PageBanner
+      <PageBanner 
         title={t(bannerTitle)}
             subtitle={`Motion Memory / ${t(bannerTitle)}`}
       />
@@ -15,6 +15,9 @@ function AboutUs({ bannerTitle = 'About Us' }) {
         <h1 className="text-6xl md:text-7xl font-banner text-center text-[#06302c] mb-8">
           {t('About Us')}
         </h1>
+        <div>
+          
+        </div>
         <p className="text-lg md:text-xl mb-6">
           <b>{t('Motion Memory')}</b>{' '}
           {t(

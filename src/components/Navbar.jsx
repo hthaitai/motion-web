@@ -68,14 +68,14 @@ function Navbar() {
       {menuOpen && (
         <div className="absolute top-[30px] left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden z-50">
           <a
-            href="#"
+            href="/"
             className="text-[#153535] font-serif text-xl hover:underline py-2"
             onClick={() => setMenuOpen(false)}
           >
             {t("The Motion Frame")}
           </a>
           <a
-            href="#"
+            href="/about"
             className="text-[#153535] font-serif text-xl hover:underline py-2"
             onClick={() => setMenuOpen(false)}
           >

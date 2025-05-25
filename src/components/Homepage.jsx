@@ -62,7 +62,7 @@ function Homepage() {
         {/* Text bên trái (sẽ nằm dưới trên mobile) */}
         <div className="flex-1 flex flex-col mt-8 md:ml-50 md:mt-0 text-center md:text-left px-4 md:px-0 md:pl-20 w-full">
           <div>
-            <p className="text-white font-banner text-9xl md:text-title mb-2 leading-tight">
+            <p className="text-white font-banner text-6xl md:text-9xl md:text-title mb-2 leading-tight">
               {t("Recreate")}
             </p>
             <h2 className="text-[#2cc295] font-banner text-3xl md:text-5xl font-semibold mb-8 leading-tight">
