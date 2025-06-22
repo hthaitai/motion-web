@@ -27,7 +27,7 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
           <img
             src={mainImg}
             alt="Motion Video Frame"
-            className="w-[300px]  h-[320px] md:w-[526px] md:h-[600px] object-fit rounded-xl shadow-lg"
+            className="w-[300px]  h-[320px] md:w-[600px] md:h-[600px] object-fit rounded-xl shadow-lg"
           />
           {/* Ảnh nhỏ bên dưới */}
           <div className=" flex gap-4 mt-6">
