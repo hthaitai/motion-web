@@ -25,7 +25,7 @@ function AboutUs({ bannerTitle = 'About Us' }) {
           {t('Our journey began with a simple idea: to create a')}
           <b> {t('digital motion frame')} </b>
           {t('that allows you to')}
-          <b> {t('relive your favorite moments ')}</b>
+          <b> {t('relive your favorite moments')} </b>
           {t(
             'in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,'
           )}

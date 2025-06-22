@@ -7,6 +7,7 @@ i18n.use(initReactI18next).init({
       translation: {
         'The Motion Frame': 'The Motion Frame',
         'About us': 'About us',
+        Page: 'Page',
         Contact: 'Contact',
         'Your life, beautifully framed.': 'Your life, beautifully framed',
         'Beautiful moments are not only to be kept but also to be felt. Motion Video Frame turns precious memories into vivid, delicate images, always present in your space.':
@@ -61,6 +62,7 @@ i18n.use(initReactI18next).init({
         'The Motion Memory Company': 'The Motion Memory Company',
         //Refund Policy
         'Refund Policy': 'Refund Policy',
+        'Policy & Terms': 'Policy & Terms',
         'We have a 15-day return policy, which means you have 15 days after receiving your item to request a return.':
           'We have a 15-day return policy, which means you have 15 days after receiving your item to request a return.',
         ' If you are not completely satisfied with your Motion Video Frame, youcan request a return in accordance with our policy within 15 days of receiving your item. Return requests made after 15 days will not be accepted. Please contact us at':
@@ -81,17 +83,38 @@ i18n.use(initReactI18next).init({
           'We are happy to exchange your Motion Frame if it arrives defective or damaged. If you receive a defective or damaged item, please contact us at',
         'within 7 days of receiving your Motion Video Frame for assistance.':
           'within 7 days of receiving your Motion Video Frame for assistance.',
-        'Shipping': 'Shipping',
+        Shipping: 'Shipping',
         'We do not cover return shipping costs; all return shipping fees will be deducted from your refund. Shipping costs are non-refundable. Please note that we are only responsible for the Motion Video Frame once it has been received at our warehouse.':
           'We do not cover return shipping costs; all return shipping fees will be deducted from your refund. Shipping costs are non-refundable. Please note that we are only responsible for the Motion Video Frame once it has been received at our warehouse.',
-        'From'  : 'From',
-          // ...another key
+        From: 'From',
+        Terms: 'Terms',
+        // ...another key
+        Phone: 'Phone',
+        //product
+        'Motion Video Frame': 'Motion Video Frame',
+        'Our shop at:': 'Our shop at:',
+        Description: 'Description',
+        'A gorgeous 6.5" acrylic frame with a 5" HD LCD screen display that allows you to infinitely loop the most precious memories that you captured via video.':
+          'A gorgeous 6.5" acrylic frame with a 5" HD LCD screen display that allows you to infinitely loop the most precious memories that you captured via video.',
+        'How can we help ?': 'How can we help ?',
+        'we are here to help you!': 'we are here to help you!',
+        "At Motion Memory, we're here to ensure you have the best experience possible. Whether you need assistance with your digital frame, have questions about your order, or simply want to share your feedback":
+          "At Motion Memory, we're here to ensure you have the best experience possible. Whether you need assistance with your digital frame, have questions about your order, or simply want to share your feedback",
+        "we're happy to help!": "we're happy to help!",
+        'Contact Us': 'Contact Us',
+        Name: 'Name',
+        'Your email *': 'Your email *',
+        'Phone number': 'Phone number',
+        'Message *': 'Message *',
+        'Send Message': 'Send Message',
+        'thank you for contacting us!': 'thank you for contacting us!',
       },
     },
     vi: {
       translation: {
         'The Motion Frame': 'Khung ảnh số',
         'About Us': 'Về chúng tôi',
+        Page: 'Trang',
         Contact: 'Liên hệ',
         'Your life, beautifully framed.':
           'Cuộc sống của bạn được gói gọn trong khung ảnh',
@@ -163,11 +186,32 @@ i18n.use(initReactI18next).init({
           'Chúng tôi rất vui được trao đổi Motion Frame của bạn nếu nó bị lỗi hoặc hư hỏng. Nếu bạn nhận được một mặt hàng bị lỗi hoặc hư hỏng, vui lòng liên hệ với chúng tôi tại',
         'within 7 days of receiving your Motion Video Frame for assistance.':
           'trong vòng 7 ngày kể từ khi nhận Motion Video Frame của bạn để được hỗ trợ.',
-        'Shipping': 'Vận chuyển', 
+        Shipping: 'Vận chuyển',
         'We do not cover return shipping costs; all return shipping fees will be deducted from your refund. Shipping costs are non-refundable. Please note that we are only responsible for the Motion Video Frame once it has been received at our warehouse.':
           'Chúng tôi không chịu trách nhiệm về chi phí vận chuyển trả lại; tất cả các khoản phí vận chuyển trả lại sẽ được trừ vào khoản hoàn tiền của bạn. Chi phí vận chuyển là không hoàn lại. Xin lưu ý rằng chúng tôi chỉ chịu trách nhiệm cho Motion Video Frame khi nó đã được nhận tại kho của chúng tôi.',
-        'From': 'Từ',
-          // ...các key khác
+        From: 'Từ',
+        // ...các key khác
+        Phone: 'Điện thoại',
+        //Product
+        'Motion Video Frame': 'Khung Ảnh Chuyển Động',
+        'Our shop at:': 'Mua hàng ngay tại:',
+        Description: 'Mô tả',
+        'A gorgeous 6.5" acrylic frame with a 5" HD LCD screen display that allows you to infinitely loop the most precious memories that you captured via video.':
+          'Khung acrylic 6,5 "tuyệt đẹp với màn hình màn hình LCD 5" HD cho phép bạn lặp lại vô số những ký ức quý giá nhất mà bạn đã ghi lại qua video.',
+        'Policy & Terms': 'Chính sách và điều khoản',
+        Terms: 'Các điều khoản',
+        'How can we help ?': 'Chúng tôi có thể giúp gì cho bạn?',
+        'we are here to help you!': 'Chúng tôi ở đây để giúp bạn',
+        "At Motion Memory, we're here to ensure you have the best experience possible. Whether you need assistance with your digital frame, have questions about your order, or simply want to share your feedback":
+          'Tại Motion Memory, chúng tôi ở đây để đảm bảo bạn có trải nghiệm tốt nhất có thể. Dù bạn cần hỗ trợ với khung ảnh số của mình, có câu hỏi về đơn hàng, hay chỉ muốn chia sẻ ý kiến phản hồi, chúng tôi luôn sẵn sàng giúp đỡ.',
+        "we're happy to help!": 'chúng tôi rất sẵn lòng giúp đỡ!',
+        'Contact Us': 'Liên hệ với chúng tôi',
+        Name: 'Tên',
+        'Your email *': 'Email của bạn *',
+        'Phone number': 'Số điện thoại',
+        'Message *': 'Tin nhắn *',
+        'Send Message': 'Gửi Phản hồi',
+        'thank you for contacting us!': 'Cảm ơn bạn đã liên hệ với chúng tôi!',
       },
     },
   },

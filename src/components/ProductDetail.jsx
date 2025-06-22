@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import product1 from '../image/product1.png';
 import product2 from '../image/product2.png';
 import product3 from '../image/product3.png';
-import product4 from '../image/product4.png';
 import PageBanner from './PageBanner';
+import { useTranslation } from 'react-i18next';
 
 function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
-  const images = [product2, product1, product3, product4];
+  const images = [product2, product1, product3];
   const [mainImg, setMainImg] = useState(product2);
+  const { t } = useTranslation();
 
   return (
     <div>
       {/* Banner page */}
       <PageBanner
         title={bannerTitle}
-        subtitle={`Motion Memory / ${bannerTitle}`}
+        subtitle={`Motion Memory / ${t(bannerTitle)}`}
       />
       <div className="flex flex-col md:flex-row items-start justify-center gap-12 px-4 py-12 bg-white">
         {/* Ảnh sản phẩm chính */}
@@ -41,7 +42,7 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
         </div>
         {/* Thông tin sản phẩm */}
         <div className="flex-1 max-w-lg">
-          <h1 className="text-5xl font-banner mb-2">Motion Video Frame</h1>
+          <h1 className="text-5xl font-banner mb-2"> {t("Motion Video Frame")}</h1>
           <div className="flex items-center mb-2">
             {/* <span className="text-yellow-400 text-2xl">★★★★★</span>
             <span className="ml-2 text-gray-500 text-xs">(21)</span> */}
@@ -49,7 +50,7 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
           {/* price */}
           {/* <div className="text-2xl font-bold mb-4">700.000 VNĐ</div> */}
           <div className="mb-4">
-            <span className="font-semibold">OUR SHOP AT:</span>
+            <span className="font-semibold">{t("Our shop at:")}</span>
             <div className="flex flex-col gap-2 mt-2">
               <a
                 href="#"
@@ -72,11 +73,9 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
             </div>
           </div>
           <div>
-            <h2 className="text-3xl font-banner mb-2">Description</h2>
+            <h2 className="text-3xl font-banner mb-2">{t("Description")}</h2>
             <p className="text-xl">
-              A gorgeous 6.5" acrylic frame with a 5" HD LCD screen display that
-              allows you to infinitely loop the most precious memories that you
-              captured via video.
+          {t('A gorgeous 6.5" acrylic frame with a 5" HD LCD screen display that allows you to infinitely loop the most precious memories that you captured via video.')}
             </p>
           </div>
         </div>

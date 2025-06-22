@@ -4,8 +4,13 @@ import imgHome from "../image/image.png";
 import imgHome1 from "../image/image1.png";
 import imgHome2 from "../image/image2.png";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router";
 function Homepage() {
   const { t } = useTranslation();
+  const navigate = useNavigate(); 
+   const handleOrderClick = () => {
+    navigate("/product");
+  };
   return (
     <div className="w-screen overflow-x-hidden">
       {/* Banner */}
@@ -49,7 +54,7 @@ function Homepage() {
           </p>
           <div className="pt-8 md:pt-[40px] flex justify-center md:justify-start">
             <button
-              onClick={onclick}
+              onClick={handleOrderClick}
               className="order-btn"
               style={{ zIndex: 10, position: "relative" }}
             >
