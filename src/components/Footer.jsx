@@ -22,6 +22,15 @@ function Footer() {
               {t('Free Shipping')}&nbsp;&nbsp;&nbsp;&nbsp;
               {t('15 Days Money Back')}
             </span>
+            {/* Mobile marquee */}
+            <span className="block sm:hidden text-[#06302c] text-2xl font-banner whitespace-nowrap mr-8">
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
+            </span>
+            <span className="block sm:hidden text-[#06302c] text-2xl font-banner whitespace-nowrap mr-8">
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
+            </span>
           </div>
         </div>
       </div>
@@ -68,6 +77,7 @@ function Footer() {
             </p>
           </div>
           {/* Page */}
+          {/* a */}
           <div>
             <h3 className="text-xl font-banner font-semibold mb-4">
               {t('Page')}

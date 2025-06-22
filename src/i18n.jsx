@@ -1,5 +1,5 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -36,30 +36,30 @@ i18n.use(initReactI18next).init({
         'Luu Huu Phuoc Tan Lap, Dong Hoa, Di An, Binh Duong, Viet Nam':
           'Luu Huu Phuoc Tan Lap, Dong Hoa, Di An, Binh Duong, Viet Nam',
         // About page
-        'About Us': 'About Us',
-        'was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.':
-          'was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.',
-        'Our journey began with a simple idea: to create a':
-          'Our journey began with a simple idea: to create a',
-        'digital motion frame': 'digital motion frame',
-        'that allows you to': 'that allows you to',
-        'relive your favorite moments': 'relive your favorite moments',
-        'in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,':
-          'in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,',
-        'is designed to make every frame tell a story.':
-          'is designed to make every frame tell a story.',
-        'With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.':
-          'With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.',
-        'fits perfectly into any home or office, making it the ideal gift for loved ones near and far.':
-          'fits perfectly into any home or office, making it the ideal gift for loved ones near and far.',
-        'If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.':
-          'If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.',
-        'then our mission has been fulfilled.':
-          'then our mission has been fulfilled.',
-        'Join us on this journey of preserving moments that matter.':
-          'Join us on this journey of preserving moments that matter.',
-        'Sincerely,': 'Sincerely,',
-        'The Motion Memory Company': 'The Motion Memory Company',
+        "About Us": "About Us",
+        "was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.":
+          "was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.",
+        "Our journey began with a simple idea: to create a":
+          "Our journey began with a simple idea: to create a",
+        "digital motion frame": "digital motion frame",
+        "that allows you to": "that allows you to",
+        "relive your favorite moments": "relive your favorite moments",
+        "in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,":
+          "in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,",
+        "is designed to make every frame tell a story.":
+          "is designed to make every frame tell a story.",
+        "With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.":
+          "With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.",
+        "fits perfectly into any home or office, making it the ideal gift for loved ones near and far.":
+          "fits perfectly into any home or office, making it the ideal gift for loved ones near and far.",
+        "If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.":
+          "If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.",
+        "then our mission has been fulfilled.":
+          "then our mission has been fulfilled.",
+        "Join us on this journey of preserving moments that matter.":
+          "Join us on this journey of preserving moments that matter.",
+        "Sincerely,": "Sincerely,",
+        "The Motion Memory Company": "The Motion Memory Company",
         //Refund Policy
         'Refund Policy': 'Refund Policy',
         'Policy & Terms': 'Policy & Terms',
@@ -144,26 +144,26 @@ i18n.use(initReactI18next).init({
         'Luu Huu Phuoc Tan Lap, Dong Hoa, Di An, Binh Duong, Viet Nam':
           'Lưu Hữu Phước Tân Lập, Dĩ An, Bình Dương, Việt Nam',
         // About page
-        'About us': 'Về chúng tôi',
-        'was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.':
-          'được thành lập từ niềm đam mê sâu sắc trong việc ghi lại những khoảnh khắc quý giá nhất của cuộc sống và biến chúng thành những kỷ niệm lâu dài. Chúng tôi tin rằng chỉ riêng những bức ảnh là chưa đủ để kể một câu chuyện đầy đủ - chuyển động mang chúng đến với cuộc sống.',
-        'Our journey began with a simple idea: to create a':
-          'Hành trình của chúng tôi bắt đầu với một ý tưởng đơn giản: tạo ra một',
-        'digital motion frame': 'khung ảnh số',
-        'that allows you to': 'cho phép bạn',
-        'relive your favorite moments':
-          'sống lại những khoảnh khắc yêu thích của bạn',
-        'in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,':
-          'theo cách sống động và chân thành nhất. Cho dù đó là một ngày sinh nhật, một kỷ niệm, hay chỉ là một kỷ niệm đặc biệt mà bạn muốn giữ gần gũi,',
-        'is designed to make every frame tell a story.':
-          'được thiết kế để mỗi khung ảnh đều kể một câu chuyện.',
-        'Join us on this journey of preserving moments that matter.':
-          'Tham gia cùng chúng tôi trong hành trình gìn giữ những khoảnh khắc quan trọng.',
-        'Sincerely,': 'Trân trọng,',
-        'With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.':
-          'Với màn hình hiển thị liền mạch, cập nhật từ xa dễ dàng và thiết kế tinh tế, Motion Memory hoàn hảo cho bất kỳ ngôi nhà hoặc văn phòng nào, trở thành món quà lý tưởng cho những người thân yêu gần xa.',
-        'If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.':
-          'Nếu chúng tôi có thể mang lại nụ cười trên khuôn mặt bạn và giữ cho những kỷ niệm của bạn sống mãi, thì sứ mệnh của chúng tôi đã hoàn thành.',
+        "About us": "Về chúng tôi",
+        "was founded from a deep passion for capturing life’s most precious moments and turning them into lasting memories. We believe that photos alone are not enough to tell a full story—motion brings them to life.":
+          "được thành lập từ niềm đam mê sâu sắc trong việc ghi lại những khoảnh khắc quý giá nhất của cuộc sống và biến chúng thành những kỷ niệm lâu dài. Chúng tôi tin rằng chỉ riêng những bức ảnh là chưa đủ để kể một câu chuyện đầy đủ - chuyển động mang chúng đến với cuộc sống.",
+        "Our journey began with a simple idea: to create a":
+          "Hành trình của chúng tôi bắt đầu với một ý tưởng đơn giản: tạo ra một",
+        "digital motion frame": "khung ảnh số",
+        "that allows you to": "cho phép bạn",
+        "relive your favorite moments":
+          "sống lại những khoảnh khắc yêu thích của bạn",
+        "in the most vivid and heartfelt way. Whether it’s a birthday, an anniversary, or just a special memory you want to keep close,":
+          "theo cách sống động và chân thành nhất. Cho dù đó là một ngày sinh nhật, một kỷ niệm, hay chỉ là một kỷ niệm đặc biệt mà bạn muốn giữ gần gũi,",
+        "is designed to make every frame tell a story.":
+          "được thiết kế để mỗi khung ảnh đều kể một câu chuyện.",
+        "Join us on this journey of preserving moments that matter.":
+          "Tham gia cùng chúng tôi trong hành trình gìn giữ những khoảnh khắc quan trọng.",
+        "Sincerely,": "Trân trọng,",
+        "With seamless display, effortless remote updates, and a sleek design,Motion Memory fits perfectly into any home or office, making it the ideal gift for loved ones near and far.":
+          "Với màn hình hiển thị liền mạch, cập nhật từ xa dễ dàng và thiết kế tinh tế, Motion Memory hoàn hảo cho bất kỳ ngôi nhà hoặc văn phòng nào, trở thành món quà lý tưởng cho những người thân yêu gần xa.",
+        "If we can bring a smile to your face and keep your memories alive,then our mission has been fulfilled.":
+          "Nếu chúng tôi có thể mang lại nụ cười trên khuôn mặt bạn và giữ cho những kỷ niệm của bạn sống mãi, thì sứ mệnh của chúng tôi đã hoàn thành.",
         //refund policy
         'Refund Policy': 'Chính sách hoàn tiền',
         'We have a 15-day return policy, which means you have 15 days after receiving your item to request a return.':
@@ -215,8 +215,8 @@ i18n.use(initReactI18next).init({
       },
     },
   },
-  lng: 'vi', // mặc định
-  fallbackLng: 'en',
+  lng: "vi", // mặc định
+  fallbackLng: "en",
   interpolation: { escapeValue: false },
 });
 

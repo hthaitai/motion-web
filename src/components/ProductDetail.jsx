@@ -11,29 +11,33 @@ function ProductDetail({ bannerTitle = 'The Motion Frame' }) {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div className="pt-[30px] md:pt-[0px]">
       {/* Banner page */}
       <PageBanner
         title={bannerTitle}
         subtitle={`Motion Memory / ${t(bannerTitle)}`}
       />
-      <div className="flex flex-col md:flex-row items-start justify-center gap-12 px-4 py-12 bg-white">
+      <div className="flex flex-col md:flex-row justify-center gap-12 px-4 py-12 bg-white">
         {/* Ảnh sản phẩm chính */}
-        <div className="flex mr-[150px] flex-col items-center">
+        <h1 className="text-5xl block md:hidden font-banner mb-2 text-center text-nowrap">
+          Motion Video Frame
+        </h1>
+
+        <div className="flex justify-center flex-col items-center">
           <img
             src={mainImg}
             alt="Motion Video Frame"
-            className="w-140 h-156 object-fit rounded-xl shadow-lg"
+            className="w-[300px]  h-[320px] md:w-[526px] md:h-[600px] object-fit rounded-xl shadow-lg"
           />
           {/* Ảnh nhỏ bên dưới */}
-          <div className="flex gap-4 mt-6">
+          <div className=" flex gap-4 mt-6">
             {images.map((img, idx) => (
               <img
                 key={idx}
                 src={img}
                 alt=""
-                className={`w-32 h-32 object-cover rounded cursor-pointer border-2 ${
-                  mainImg === img ? 'border-[#2cc295]' : 'border-transparent'
+                className={` md:w-[128px] md:h-[128px] w-[60px] h-[60px] object-cover rounded cursor-pointer border-2 ${
+                  mainImg === img ? "border-[#2cc295]" : "border-transparent"
                 }`}
                 onClick={() => setMainImg(img)}
               />

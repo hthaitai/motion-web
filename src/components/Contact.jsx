@@ -5,10 +5,10 @@ import emailjs from 'emailjs-com';
 import { toast, ToastContainer } from 'react-toastify';
 function Contact({ bannerTitle = 'Contact Us' }) {
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    comment: '',
+    name: "",
+    email: "",
+    phone: "",
+    comment: "",
   });
   const { t } = useTranslation();
   const handleChange = (e) => {
@@ -58,9 +58,10 @@ function Contact({ bannerTitle = 'Contact Us' }) {
         theme="light"
       />{' '}
       <PageBanner
-        title={bannerTitle}
-        subtitle={`Motion Memory / ${bannerTitle}`}
+        title={t(bannerTitle)}
+        subtitle={`Motion Memory / ${t(bannerTitle)}`}
       />
+
       <div className="min-h-screen bg-white flex flex-col items-center px-2 py-8">
         <h1 className="text-5xl md:text-6xl font-banner text-[#06302c] text-center mb-8">
           {t('How can we help ?')}

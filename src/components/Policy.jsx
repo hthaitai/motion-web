@@ -6,7 +6,7 @@ function Policy({ bannerTitle = 'Refund Policy' }) {
   const { t, i18n } = useTranslation();
 
   return (
-    <div>
+    <div className='pt-[60px] md:pt-[0px]'>
       <PageBanner
         title={bannerTitle}
         subtitle={`Motion Memory / ${bannerTitle}`}

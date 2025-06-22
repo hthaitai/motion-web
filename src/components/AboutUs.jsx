@@ -6,15 +6,18 @@ function AboutUs({ bannerTitle = 'About Us' }) {
   const { t } = useTranslation();
 
   return (
-    <div>
-      <PageBanner
+    <div className='pt-[30px]'>
+      <PageBanner 
         title={t(bannerTitle)}
             subtitle={`Motion Memory / ${t(bannerTitle)}`}
       />
-      <div className="max-w-4xl mx-auto px-4 py-12 bg-white min-h-screen">
+      <div className="max-w-4xl mx-auto  px-4 py-12 bg-white min-h-screen">
         <h1 className="text-6xl md:text-7xl font-banner text-center text-[#06302c] mb-8">
           {t('About Us')}
         </h1>
+        <div>
+          
+        </div>
         <p className="text-lg md:text-xl mb-6">
           <b>{t('Motion Memory')}</b>{' '}
           {t(
