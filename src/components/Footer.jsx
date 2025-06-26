@@ -1,7 +1,8 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
-import { FaArrowRight } from 'react-icons/fa6';
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { FaFacebookF, FaInstagram, FaTiktok, FaBoxOpen } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
+import { SiShopee } from "react-icons/si";
 
 function Footer() {
   const { t } = useTranslation();
@@ -11,16 +12,16 @@ function Footer() {
         <div className="relative w-full h-12">
           <div className="absolute top-0 left-0 flex animate-marquee-full w-max">
             <span className="text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
-              {t('Free Shipping')}&nbsp;&nbsp;&nbsp;&nbsp;
-              {t('15 Days Money Back')}&nbsp;&nbsp;&nbsp;&nbsp;{' '}
-              {t('Free Shipping')}&nbsp;&nbsp;&nbsp;&nbsp;
-              {t('15 Days Money Back')}
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
             </span>
             <span className="text-[#06302c] text-3xl font-banner  whitespace-nowrap mr-16">
-              {t('Free Shipping')}&nbsp;&nbsp;&nbsp;&nbsp;
-              {t('15 Days Money Back')}&nbsp;&nbsp;&nbsp;&nbsp;{' '}
-              {t('Free Shipping')}&nbsp;&nbsp;&nbsp;&nbsp;
-              {t('15 Days Money Back')}
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+              {t("Free Shipping")}&nbsp;&nbsp;&nbsp;&nbsp;
+              {t("15 Days Money Back")}
             </span>
             {/* Mobile marquee */}
             <span className="block sm:hidden text-[#06302c] text-2xl font-banner whitespace-nowrap mr-8">
@@ -37,19 +38,19 @@ function Footer() {
       {/* Banner Free Shipping & Money Back */}
       <div className="bg-white w-full py-10">
         <h2 className="text-[#06302c] text-2xl md:text-4xl font-banner text-center mb-8">
-          {t('Try MOTION VIDEO FRAME now !')}
+          {t("Try MOTION VIDEO FRAME now !")}
         </h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-32">
           <div className="flex flex-col items-center mb-8 md:mb-0">
             <i className="fa-solid fa-truck-fast -days text-[#06302c] text-5xl md:text-7xl mb-4"></i>
             <span className="text-[#06302c] text-lg md:text-2xl font-banner">
-              {t('Free Shipping')}
+              {t("Free Shipping")}
             </span>
           </div>
           <div className="flex flex-col items-center">
             <i className="fa-solid fa-calendar-days text-[#06302c] text-5xl md:text-7xl mb-4"></i>
             <span className="text-[#06302c] text-lg md:text-2xl font-banner">
-              {t('15 Days Money Back')}
+              {t("15 Days Money Back")}
             </span>
           </div>
         </div>
@@ -60,19 +61,19 @@ function Footer() {
           {/* Company Info */}
           <div className="min-w-[220px]">
             <h3 className="text-xl font-banner font-semibold mb-4">
-              {t('Motion Memory Company')}
+              {t("Motion Memory Company")}
             </h3>
             <p className="mb-2 leading-snug">
               {t(
-                'Luu Huu Phuoc Tan Lap, Dong Hoa, Di An, Binh Duong, Viet Nam'
+                "Luu Huu Phuoc Tan Lap, Dong Hoa, Di An, Binh Duong, Viet Nam"
               )}
             </p>
             <p className="mb-1">
-              <span className="font-semibold"> {t('Phone')}:</span> +84
-              0123456789
+              <span className="font-semibold"> {t("Phone")}:</span> +84
+              352010708
             </p>
             <p>
-              <span className="font-semibold">Email:</span>{' '}
+              <span className="font-semibold">Email:</span>{" "}
               motionmemory@gmail.com
             </p>
           </div>
@@ -80,7 +81,7 @@ function Footer() {
           {/* a */}
           <div>
             <h3 className="text-xl font-banner font-semibold mb-4">
-              {t('Page')}
+              {t("Page")}
             </h3>
             <ul className="space-y-2">
               <li>
@@ -90,12 +91,12 @@ function Footer() {
               </li>
               <li>
                 <a href="/about" className="hover:underline">
-                  {t('About us')}
+                  {t("About us")}
                 </a>
               </li>
               <li>
                 <a href="/contact" className="hover:underline">
-                  {t('Contact')}
+                  {t("Contact")}
                 </a>
               </li>
             </ul>
@@ -103,13 +104,13 @@ function Footer() {
           {/* Terms */}
           <div>
             <h3 className="text-xl font-banner font-semibold mb-4">
-              {' '}
-              {t('Terms')}
+              {" "}
+              {t("Terms")}
             </h3>
             <ul className="space-y-2">
               <li>
                 <a href="/refundpolicy" className="hover:underline">
-                  {t('Policy & Terms')}
+                  {t("Policy & Terms")}
                 </a>
               </li>
             </ul>
@@ -117,8 +118,53 @@ function Footer() {
         </div>
         {/* Social Icons */}
         <div className="flex justify-center gap-8 mt-8">
-          <a href="https://www.facebook.com/share/1YHYjgkXsY/?mibextid=wwXIfr"className="text-[#2cc295] text-2xl hover:text-white">
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61577896552259"
+            className="text-[#2cc295] text-2xl hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            title="Facebook"
+            data-tag="facebook"
+          >
             <FaFacebookF />
+          </a>
+          {/* Shopee */}
+          <a
+            href="https://shopee.vn/"
+            className="text-[#2cc295] text-2xl hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Shopee"
+            title="Shopee"
+            data-tag="shopee"
+          >
+            <SiShopee />
+          </a>
+          {/* Lazada */}
+          <a
+            href="https://www.lazada.vn/"
+            className="text-[#2cc295] text-2xl hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Lazada"
+            title="Lazada"
+            data-tag="lazada"
+          >
+            <FaBoxOpen /> {/* Tạm thay cho Lazada */}
+          </a>
+          {/* TikTok */}
+          <a
+            href="https://www.tiktok.com/"
+            className="text-[#2cc295] text-2xl hover:text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            title="TikTok"
+            data-tag="tiktok"
+          >
+            <FaTiktok />
           </a>
         </div>
       </footer>
