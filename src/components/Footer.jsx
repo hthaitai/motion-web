@@ -74,7 +74,7 @@ function Footer() {
             </p>
             <p>
               <span className="font-semibold">Email:</span>{" "}
-              motionmemory@gmail.com
+              motionframemory@gmail.com
             </p>
           </div>
           {/* Page */}
