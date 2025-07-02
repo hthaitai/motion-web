@@ -54,13 +54,13 @@ function Navbar() {
       </button>
       {/* Menu giữa (ẩn trên mobile, hiện trên md) */}
       <div className="flex-1 justify-center space-x-8 md:flex hidden">
-        <a href="/" className="text-[#153535] font-medium text-xl hover:underline">
+        <a href="/" className="text-[#153535] font-serif text-xl hover:underline">
           {t("The Motion Frame")}
         </a>
-        <a href="/about" className="text-[#153535] font-medium text-xl hover:underline">
+        <a href="/about" className="text-[#153535] font-serif text-xl hover:underline">
           {t("About us")}
         </a>
-        <a href="/contact" className="text-[#153535] font-medium text-xl hover:underline">
+        <a href="/contact" className="text-[#153535] font-serif text-xl hover:underline">
           {t("Contact")}
         </a>
       </div>
