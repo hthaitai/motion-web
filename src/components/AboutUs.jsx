@@ -6,7 +6,7 @@ function AboutUs({ bannerTitle = 'About Us' }) {
   const { t } = useTranslation();
 
   return (
-    <div className='pt-[30px]'>
+    <div className=''>
       <PageBanner 
         title={t(bannerTitle)}
             subtitle={`Motion Memory / ${t(bannerTitle)}`}

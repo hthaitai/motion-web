@@ -63,6 +63,9 @@ function Navbar() {
         <a href="/contact" className="text-[#153535] font-medium text-xl hover:underline">
           {t("Contact")}
         </a>
+        <a href="/download" className="text-[#153535] font-medium text-xl hover:underline">
+          {t("Download App")}
+        </a>
       </div>
       {/* Icon cờ bên phải */}
       <div className="ml-4">

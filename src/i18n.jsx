@@ -108,6 +108,7 @@ i18n.use(initReactI18next).init({
         'Message *': 'Message *',
         'Send Message': 'Send Message',
         'thank you for contacting us!': 'thank you for contacting us!',
+        'Download App': 'Download App',
       },
     },
     vi: {
@@ -212,6 +213,7 @@ i18n.use(initReactI18next).init({
         'Message *': 'Tin nhắn *',
         'Send Message': 'Gửi Phản hồi',
         'thank you for contacting us!': 'Cảm ơn bạn đã liên hệ với chúng tôi!',
+         'Download App': 'Tải ứng dụng',
       },
     },
   },

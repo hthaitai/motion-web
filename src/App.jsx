@@ -9,6 +9,7 @@ import ProductDetail from './components/ProductDetail';
 import AboutUs from './components/AboutUs';
 import Policy from './components/Policy';
 import Contact from './components/Contact';
+import DownloadApp from './components/DownloadApp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="about" element={<AboutUs />} />
             <Route path="refundpolicy" element={<Policy />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="download" element={<DownloadApp />} />
           </Routes>
         </div>
         <Footer />
