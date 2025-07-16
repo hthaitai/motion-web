@@ -62,7 +62,7 @@ const { t } = useTranslation();
           <h2 className="text-3xl font-semibold text-green-600">{t("Valid code!")}</h2>
           <p>{t("click the button below to download the app:")}</p>
           <a
-            href="/downloads/MotionMemory_v1.0.apk"
+            href="/MotionMemory_v1.0.apk"
             download
             className="bg-[#06604c] text-white font-bold text-xl px-8 py-3 rounded-lg hover:bg-[#06302c] transition inline-block"
           >
