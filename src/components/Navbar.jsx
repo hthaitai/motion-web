@@ -109,6 +109,13 @@ function Navbar() {
         >
           {t("Contact")}
         </a>
+        <a
+          href="/download"
+          className="text-[#153535] font-serif text-xl hover:underline py-2"
+          onClick={() => setMenuOpen(false)}
+        >
+          {t("Download App")}
+        </a>
       </div>
     </nav>
   );
